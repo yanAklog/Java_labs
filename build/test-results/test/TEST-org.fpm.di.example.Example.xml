@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.fpm.di.example.Example" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-12-30T04:23:32" hostname="DESKTOP-1CMLU67" time="0.05">
+  <properties/>
+  <testcase name="shouldUseInject" classname="org.fpm.di.example.Example" time="0.026"/>
+  <testcase name="shouldInjectSingleton" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldBuildInjectDependencies_1" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldBuildInjectDependencies_2" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldBuildInjectDependencies_3" classname="org.fpm.di.example.Example" time="0.0"/>
+  <testcase name="shouldBuildInjectDependencies_4" classname="org.fpm.di.example.Example" time="0.0"/>
+  <testcase name="shouldBuildInjectDependencies_5" classname="org.fpm.di.example.Example" time="0.0"/>
+  <testcase name="shouldInjectPrototype" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldBuildInjectionGraph" classname="org.fpm.di.example.Example" time="0.0"/>
+  <testcase name="shouldBuildInjectDependencies" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldThrowImplementationException" classname="org.fpm.di.example.Example" time="0.001"/>
+  <testcase name="shouldThrowException" classname="org.fpm.di.example.Example" time="0.008"/>
+  <testcase name="shouldUseInject_1" classname="org.fpm.di.example.Example" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

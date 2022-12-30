@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group 'org.fpm'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'javax.inject:javax.inject:1'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
+
+jacocoTestReport {
+    reports {
+        html.enabled true
+    }
+}
+test.finalizedBy jacocoTestReport
+
+
+
+
+
+
